@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port folio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+
+    }
+
+
+    .gmain {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .div1 {
+        display: flex;
+        height: 700px;
+        box-shadow: 5px 15px 35px gray;
+        background-color: black;
+
+    }
+
+    .main1 {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+        background-color: rgb(243, 244, 248);
+
+
+
+    }
+
+
+    span {
+        color: rgb(119, 185, 238);
+    }
+
+    span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    h1 {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    ul {
+        list-style-type: none;
+        
+
+
+    }
+
+    li {
+        padding: 5px;
+        font-weight: bold;
+
+    }
+
+    li:hover {
+        color: rgb(119, 185, 238);
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+
+    .main2 {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        margin-top: 100px;
+
+    }
+
+        
+    
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 53px;
+        color: white;
+    }
+
+    .btn1 {
+        font-size: 15px;
+        height: 40px;
+        width: 150px;
+        margin-left: -180px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        outline: 2px solid gray;
+        background-color: black;
+
+    }
+
+    .btn1:hover {
+        color: black;
+        background-color: rgb(243, 244, 248);
+        cursor: pointer;
+
+    }
+
+    .main3 {
+        display: flex;
+        align-items: center;
+        margin-top: 140px;
+        margin-bottom: 140px;
+        background-color: black;
+
+
+    }
+
+    .img1 {
+        width: 400px;
+        height: 695px;
+
+    }
+
+
+    p {
+        line-height: 1px;
+    }
+
+    h3 {
+        color: white;
+        font-size: large;
+    }
+
+    .gmain2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 600px;
+
+
+    }
+
+    .main4,
+    .main5 {
+        height: 550px;
+    }
+
+    .btn2 {
+        font-size: 15px;
+        height: 50px;
+        width: 120px;
+        margin-left: 10px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        background-color: rgb(185, 126, 187);
+
+    }
+
+    .btn2:hover {
+        background-color: rgb(158, 108, 159);
+        cursor: pointer;
+    }
+
+
+    .gmain3 {
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+    h6 {
+        font-size: 15px;
+        border: 1px solid gray;
+        border-left: none;
+        border-right: none;
+        padding: 10px;
+    }
+
+    .main7,
+    .main8,
+    .main9 {
+        height: 400px;
+        width: 300px;
+        font-size: xx-large;
+        text-align: center;
+        box-shadow: 0px 0px 10px gray;
+
+
+
+    }
+
+    .gmain4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+
+
+    }
+
+
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6,
+    #img7 {
+        width: 380px;
+        height: 350px;
+        /* border: none; */
+    }
+    
+
+    .main6 {
+        font-size: larger;
+        height: 400px;
+        width: 250px;
+
+    }
+
+    .btn3,
+    .btn4,
+    .btn5 {
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+        margin-left: 10px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        background-color: rgb(80, 127, 207);
+        cursor: pointer;
+
+    }
+
+
+    .gmain5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 150px;
+        background-color: rgb(247, 247, 247);
+
+
+
+    }
+
+    .btn10 {
+        font-size: 15px;
+        height: 60px;
+        width: 250px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        background-color: rgb(24, 119, 242);
+
+    }
+
+    .btn10:hover {
+        background-color: rgb(1, 89, 204);
+        cursor: pointer;
+    }
+
+
+
+    .btn6,
+    .btn7,
+    .btn8,
+    .btn9 {
+        font-size: 15px;
+        height: 40px;
+        width: 130px;
+        margin-top: 20px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        background-color: rgb(24, 119, 242);
+        cursor: pointer;
+
+
+    }
+
+    .btn6:hover {
+        background-color: rgba(24, 118, 242, 0.595);
+    }
+
+    .btn7 {
+        background-color: rgb(15, 20, 26);
+
+    }
+
+    .btn7:hover {
+        background-color: rgba(15, 20, 26, 0.693);
+    }
+
+    .btn8 {
+        background-color: rgb(189, 8, 28);
+
+    }
+
+    .btn8:hover {
+        background-color: rgba(189, 8, 29, 0.708);
+    }
+
+    .btn9 {
+        background-color: rgb(24, 119, 242);
+
+    }
+
+    .btn9:hover {
+        background-color: rgba(24, 118, 242, 0.648);
+    }
+
+
+    h4>strong {
+        font-size: 30px;
+    }
+
+
+    .gmain6 {
+        display: flex;
+        justify-content: center;
+        column-gap: 5px;
+        background-color: rgb(38, 38, 38);
+
+
+
+    }
+
+    .gmain7{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 18px;
+        height: 100px;
+        background-color: rgb(26, 115, 232);
+        color: white;
+        
+    }
+
+    .gmain8{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+        height: 140px;
+        color: grey;
+        
+    }
+
+    .gmain9{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 19px;
+        height: 80px;
+        color: grey;
+        background-color: rgb(247, 247, 247);
+       
+        
+    }
+strong{
+    cursor: pointer;
+}
+
+
+a{
+    font-size: 30px;
+    height:30px ;
+    width: 30px;
+    background-color: rgb(26, 115, 232);
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right:30px;
+    color: white;
+}
+
+i:hover{
+    cursor: pointer;
+    
+}
+
+    /* * {
+        border: 1px solid red;
+
+    } */
+</style>
+
+<body>
+
+    <div class="gmain7">
+        <div><strong><i class="fa-brands fa-wordpress"></i> Our free WordPress themes are downloaded over 5 MILLION times.</strong>Get them now!</div>
+        <div>
+        <i class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i>
+        <i class="fa-brands fa-x-twitter">&nbsp;&nbsp;</i>
+        <i class="fa-brands fa-instagram">&nbsp;&nbsp;&nbsp;</i>
+        <i class="fa-brands fa-linkedin-in">&nbsp;</i>
+        <i class="fa-brands fa-youtub">&nbsp;&nbsp;</i>
+        <i class="fa-solid fa-square-rss">&nbsp;&nbsp;</i>
+        <i class="fa-brands fa-github">&nbsp;&nbsp;</i>
+    
+    </div>
+      </div>
+
+<div class="gmain8">
+    <div><img src="img/colorlib-logo-top.png" style="width: 250px; " alt=""></div>
+    <div>
+        <strong>Home&nbsp;&nbsp;</strong>
+        <strong>Support&nbsp;&nbsp;</strong>
+        <strong>Free Themes&nbsp;&nbsp;</strong>
+        <strong>Premium Themes&nbsp;&nbsp;</strong>
+        <strong>Website Templates&nbsp;&nbsp;</strong>
+        <strong>Blog&nbsp;&nbsp;</strong>
+        <strong>Account&nbsp;&nbsp;</strong>
+        <strong><i class="fa-solid fa-magnifying-glass"></i></strong>
+    </div>
+
+</div>
+
+<div class="gmain9">
+    <div><strong>Templates</strong></div>
+    <div><strong>Home>></strong>
+        <strong>HTML & CSS Website Templates>></strong>
+        <strong>Port>> Shan Qureshi</strong></div>
+</div>
+
+
+
+    <div class="gmain">
+
+        <div class="div1">
+            <div class="main1">
+                <img src="img/WhatsApp Image 2024-09-02 at 3.45.38 PM.jpeg"
+                    style="margin-top: 30px;width: 150px;height: 150px;border-radius: 100px;" alt="">
+                <h1>Shan Qureshi</h1>
+                <p><span>WEBDEVELOPER</span> IN PAKISTAN</p>
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>SKILLS</li>
+                    <li>EDUCATION</li>
+                    <li>EXPERIENCE</li>
+                    <li>WORK</li>
+                    <li>BLOG</li>
+                    <li>CONTACT</li>
+                </ul>
+                <p>&#169; Copy right &#169;2024 All right reserved | This</p>
+                <p>template is mode by &#10084; <span>Colorib</span></p>
+                <p>Demo Images: <span>Unplash.com</span></p>
+            </div>
+
+
+            <div class="main2">
+                <h2>I am <br> Webdeveloper</h2>
+                <h3>100% html5 bootstrab templates Mode <br>
+                    by <span>colorib.com</span></h3>
+                <br>
+                <br>
+                <button class="btn1">VIEW PORTFOLIO</button>
+            </div>
+
+            <div class="main3">
+                <img src="img/WhatsApp Image 2024-09-02 at 12.18.38 PM.jpeg" class="img1" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="gmain2">
+        <div class="main4">
+            <h4><strong>Templates Details</strong></h4>
+            <hr>
+            <br>
+            <p><strong>Authore:</strong>Colorib</p>
+            <br>
+            <br>
+            <p><strong>Released:</strong>July2024</p>
+            <br>
+            <br>
+            <p><strong>License:</strong>CC By 3.0</p>
+            <br>
+            <br>
+            <p><strong>Credit:</strong>Images from Unplash</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button class="btn2"><i class="fa-solid fa-eye"></i>&nbsp;&nbsp;Preview</button>
+        </div>
+        <div class="main5">
+            <h4><strong>Description</strong></h4>
+            <hr>
+            <h5>Keep growing your career and freelance business with Shan Qureshi personal portfolio website template.
+                Your
+            </h5>
+            <h5>skills and talent deserve a mind-blowing web space to attract clients requiring your service. Or make it
+            </h5>
+            <h5>impossible for an employer to say no to your mastery.</h5>
+            <br>
+            <br>
+
+            <h5>Shan Qureshi is a one-page website template with handy and sticky left sidebar navigation. The content
+                is on</h5>
+            <h5>the right and guides every visitor through the world of your professional offerings and amazing work.
+            </h5>
+            <h5>Every section is carefully designed for the best performance, no matter the device they use to browse
+            </h5>
+            <h5>your website. Once you download Shan Qureshi, you will see how easy and quick it is to edit it. You can
+                even</h5>
+            <h5>remove some elements and introduce other content. Yes, that phenomenal Shan Qureshi is.</h5>
+
+        </div>
+
+    </div>
+    <h4><strong style="margin-left: 180px;">Pricing Shan Qureshi</strong></h4>
+
+    <div class="gmain3">
+        <div class="main6">
+            <br><br>
+            <h6>Premium support</h6>
+            <h6>Template updates</h6>
+            <h6>Support & Updates</h6>
+            <h6>Access all templates</h6>
+        </div>
+        <div class="main7">
+            <p>SINGLE</p>
+            <hr>
+            <P style="font-size: 55px;"><sup style="font-size: 25px;">$</sup>19</P>
+            <br>
+            <P style="font-size: 20px;">For 1 year</P>
+            <br>
+            <br>
+            <button class="btn3">BOY NOW</button>
+        </div>
+        <div class="main8">
+            <p>MEMBERSHIP</p>
+            <hr>
+            <P style="font-size: 55px;"><sup style="font-size: 25px;">$</sup>129</P>
+            <br>
+            <P style="font-size: 20px;">For 2 year</P>
+            <br>
+            <br>
+            <button class="btn4">BOY NOW</button>
+        </div>
+        <div class="main9">
+            <p>LIFETIME</p>
+            <hr>
+            <P style="font-size: 55px;"><sup style="font-size: 25px;">$</sup>349</P>
+            <br>
+            <P style="font-size: 20px;">For 3 year</P>
+            <br>
+            <br>
+            <button class="btn5">BOY NOW</button>
+        </div>
+
+    </div>
+
+    <h1 style="margin-left: 180px;">Share This <br>
+        <button class="btn6"><i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;Facebook</button>
+        <button class="btn7"><i class="fa-brands fa-x-twitter"></i>&nbsp;&nbsp;Twitter</button>
+        <button class="btn8"><i class="fa-brands fa-pinterest"></i>&nbsp;&nbsp;Pinterest</button>
+        <button class="btn9"><i class="fa-brands fa-linkedin-in"></i>&nbsp;&nbsp;Linkedin</button>
+    </h1>
+
+    <h1 style="margin-left: 180px;">Similar Templates</h1>
+
+    <div class="gmain4">
+        <img src="img/rezume-free-template-353x278.jpg" id="img2" alt="">
+        <img src="img/glint-free-fullscreen-small-business-template.jpg" id="img3" alt="">
+        <img src="img/create-free-template.jpg" id="img4" alt="">
+        <img src="img/knuford-free-template-353x278.jpg" id="img5" alt="">
+        <img src="img/oakberry-free-template.jpg" id="img6" alt="">
+        <img src="img/onetech-free-template.jpg" id="img7" alt="">
+    </div>
+
+    <div class="gmain5">
+        <div><strong style="font-size: larger;">We change everything WordPress. One WordPress theme at a time.</strong>
+        </div>
+        <div><button class="btn10">Find Out More!</button></div>
+    </div>
+
+    <div class="gmain6">
+        <div style="width: 400px; margin-top: 45px; color: gray">
+            <p><strong style="font-size: 20px;">Useful</strong>
+                <hr>
+                About Colorib
+                <hr>
+                Advertise
+                <hr>
+                Squarespace Templates
+                <hr>
+                Wordpress Themes
+                <hr>
+                Website Templates
+                <hr>
+                Bootstrap Templates
+                <hr>
+                Support from
+                <hr>
+                &nbsp;&nbsp;-Support Policy
+                <hr>
+                Contact us
+                <hr>
+                We are Hiring!
+            </p>
+        </div>
+        <div style="width: 700px;">
+             <img src="img/colorlib-logo-white.png.webp" style="width: 250px; margin-top: 20px;">
+            <p style="line-height: 15px; color: gray">We Change Every Think Wordpress</p>
+            <p style="line-height: 18px; color: gray">WP theme At time</p>
+        </div>
+    </div>
+
+   <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+</body>
+
+</html>
